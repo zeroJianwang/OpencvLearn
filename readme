@@ -1,0 +1,5 @@
+put config file to your user folder .ssh/
+
+bash "ssh _T git@github.com"
+
+say "yes"
