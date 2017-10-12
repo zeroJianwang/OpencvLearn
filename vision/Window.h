@@ -2,6 +2,7 @@
 #define _OPENCV_WINDOW_H_
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui.hpp>
+#include <opencv2/imgcodecs.hpp>
 class COpencvWindow
 {
 public:
