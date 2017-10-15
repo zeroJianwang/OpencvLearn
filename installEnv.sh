@@ -11,7 +11,7 @@ apt-get install vim
 apt-get install build-essetial
 apt-get install cmake
 apt-get install git
-apt-get insatll libgtk2.0-dev 
+apt-get install libgtk2.0-dev 
 apt-get install pkg-config
 apt-get insatll libavcodec-dev
 apt-get install libavformat-dev 
