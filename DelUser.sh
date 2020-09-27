@@ -9,10 +9,15 @@ if [ $? -ne 0 ]; then
 fi
 
 read -p "Are you sure to delete user:$UserName? [y/n]" Action
-if ["$Action" != "y"];then
+case "$Action" in
+        y|Y|yes|YES)
         userdel -r $UserName
         echo "OK!"
-else
-        echo "Give up"
+        ;;
+n|N|No)
+        echo "give up"
         exit 1
-fi
+        ;;
+*)
+        echo "please input yes|Y|N"
+        ;;
