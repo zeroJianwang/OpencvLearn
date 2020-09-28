@@ -18,4 +18,3 @@ apt-get install libavformat-dev
 apt-get install libtiff4-dev
 apt-get install libswscale-dev 
 apt-get install libjasper-dev
-apt-get install python3-pyqt5
